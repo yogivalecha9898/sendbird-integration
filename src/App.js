@@ -7,7 +7,7 @@ function App() {
   const script = (token) => {
     (function (w, d, s, ...args) {
       const div = d.createElement("div");
-      div.id = "aichatbot";
+      div.id = "aichatbots";
       d.body.appendChild(div);
 
       w.chatbotConfig = args;
